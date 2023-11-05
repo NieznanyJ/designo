@@ -52,7 +52,7 @@ function Navbar() {
 
         <nav className="navigation">
             <div className="navbar">
-                <Link to="/home" className='link'><img src="/assets/shared/desktop/logo-dark.png"  alt="Designo" className="logo" onClick={closeMobileMenu}/></Link>
+                <Link to="https://nieznanyj.github.io/designo/" className='link'><img src="/assets/shared/desktop/logo-dark.png"  alt="Designo" className="logo" onClick={closeMobileMenu}/></Link>
                 {(screenWidth < 768) && (!mobileMenuOpen) && 
                 
                 <img src="/assets/shared/mobile/icon-hamburger.svg" alt="Menu" className='menu-btn' onClick={handleMobileMenu} />

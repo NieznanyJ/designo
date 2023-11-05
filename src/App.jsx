@@ -19,7 +19,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
 
-        <Route path='https://github.com/NieznanyJ/designo/home' element={<Home />}></Route>
+        <Route path='https://nieznanyj.github.io/designo/' element={<Home />}></Route>
         <Route path='https://github.com/NieznanyJ/designo/about-us' element={<AboutUs />}></Route>
         <Route path='https://github.com/NieznanyJ/designo/web-design' element={<WebDesign />}></Route>
         <Route path='https://github.com/NieznanyJ/designo/app-design' element={<AppDesign />}></Route>

@@ -4,6 +4,6 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-   base: "https://github.com/NieznanyJ/designo" 
+   base: "https://nieznanyj.github.io/designo/" 
   
 })
