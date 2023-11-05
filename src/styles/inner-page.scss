@@ -1,0 +1,236 @@
+.inner-page-header{
+    width: 100%;
+    height: 320px;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    background-color: var(--peach);
+    background-image: url(/assets/web-design/desktop/bg-pattern-intro-web.svg);
+    color: var(--white);
+
+}
+
+.inner-page-header-title{
+    text-transform: capitalize;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.inner-page-header-text{
+    
+    font-size: 15px;
+    line-height: 25px;
+    width: 100%;
+}
+
+
+.inner-page-body{
+    width: 100%;
+    margin-top: 4rem;
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    gap: 4rem;
+}
+
+.inner-page-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.inner-page-card-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.inner-page-card-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.inner-page-card-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 5px;
+    color: var(--peach);
+}
+
+.inner-page-card-text{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--dark-gray);
+    padding: 0 2.5rem;
+}
+
+.inner-page-design-cards-container{
+    margin-bottom: 0;
+}
+
+
+.about-us-page-header{
+    height: 400px;
+}
+
+.about-us-sub-section-container{
+    position: relative;
+    top: -10px;
+}
+
+.about-hero-img:first-child{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 10px;
+}
+
+.about-us-talent-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    padding-top: 4rem;
+    background-image: url(assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg);
+    background-repeat: repeat-y;
+    background-size: fill;
+    background-position: 70% 0%;
+
+}
+
+.about-us-talent-title{
+    font-size: 32px;
+    line-height: 36px;
+    color: var(--peach);
+}
+
+.about-us-talent-text{
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.form-btn{
+    width: 150px;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:768px) {
+
+    .inner-page-body{
+        width: 90%;
+        padding: 0;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 5rem;
+
+    }
+    .inner-page-header{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+        border-radius: 10px;
+    
+    }
+    
+    .inner-page-header-title{
+        text-transform: capitalize;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .inner-page-header-text{
+        width: 60%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .inner-page-card{
+        margin: auto;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .inner-page-card-img{
+        width: 50%;
+    }
+    .inner-page-card-text{
+        padding: 1rem;
+    }
+
+    
+    
+    .about-us-page-header{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 0;
+        padding-bottom: 4rem;
+        justify-content: space-between;
+        min-height: 630px;
+        
+        border-radius: 10px;
+        
+        .about-hero-img{
+            top: 0;
+            border-radius: 10px 10px 0 0;
+        }
+        .inner-page-header-text{
+            width: 82%;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+
+    
+    
+
+    .about-us-sub-section-container{
+        width: 90%;
+        margin: auto;
+        
+        img{
+            border-radius: 10px 10px 0 0;
+        }
+
+    }
+
+    .about-us-talent-container{
+        background-image: url(/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+        background-size: 55%;
+        background-repeat: repeat-x;
+        background-position: 0% -120%;
+        padding: 4rem 0;
+    }
+    .about-us-talent-title{
+        font-size: 40px;
+        line-height: 38px;
+        color: var(--peach);
+    }
+    
+    .about-us-talent-text{
+        width: 83%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    
+
+
+    
+}

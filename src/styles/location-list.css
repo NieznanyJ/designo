@@ -1,0 +1,50 @@
+.location-list {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  gap: 5rem;
+  list-style: none;
+  text-align: center;
+}
+
+.location-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-transform: uppercase;
+}
+
+.location-list-title {
+  font-size: 20;
+  line-height: 26px;
+  letter-spacing: 5px;
+  color: var(--dark-gray);
+}
+
+.scn-btn {
+  background-color: var(--peach);
+  color: var(--white);
+}
+
+.location-item-img {
+  z-index: 20;
+}
+
+.location-item-circle {
+  position: absolute;
+  top: 0;
+  width: 200px;
+}
+
+.location-item:nth-child(2) .location-item-circle {
+  transform: rotate(-90deg);
+}
+
+.location-item:last-child .location-item-circle {
+  transform: rotate(180deg);
+}/*# sourceMappingURL=location-list.css.map */

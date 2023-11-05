@@ -1,0 +1,123 @@
+.footer {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: var(--black);
+}
+
+.footer-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 90%;
+}
+
+.footer-logo {
+  position: relative;
+  width: 200px;
+  margin: auto;
+}
+
+.line {
+  width: 90%;
+  margin: auto;
+  height: 1px;
+  background-color: var(--light-gray);
+}
+
+.footer-menu {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+.footer-menu .link {
+  color: var(--white);
+}
+
+.contact-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  color: var(--light-gray);
+}
+
+.contact-text {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.social-container {
+  margin-top: 1rem;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icon {
+  cursor: pointer;
+}
+
+.get-in-touch-absolute {
+  position: absolute;
+  top: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-bottom: 5rem;
+  }
+  .footer-logo {
+    margin-left: 0;
+  }
+  .footer-navigation {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+  .footer-menu {
+    flex-direction: row;
+  }
+  .line {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }
+  .contact-info-container {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin-left: 2.5rem;
+    text-align: left;
+  }
+  .social-container {
+    max-width: 185px;
+    position: absolute;
+    right: 6.5%;
+    bottom: 17%;
+    justify-content: center;
+    gap: 1rem;
+  }
+}/*# sourceMappingURL=footer.css.map */

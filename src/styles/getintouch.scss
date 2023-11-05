@@ -1,0 +1,51 @@
+.get-in-touch{
+    position: relative;
+    top: 170px;
+    width: 90%;
+    margin: auto;
+    min-height: 379px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem 1rem;
+    color: var(--white);
+    background-color: var(--peach);
+    background-image: url(/assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg) ;
+    background-repeat: repeat-x;
+    background-position: center center;
+    
+    overflow: hidden;
+    z-index: 20;
+   
+}
+
+
+
+.get-in-touch-title{
+    font-size: 32px;
+    line-height: 36px;
+    z-index: 10;
+}
+
+.get-in-touch-text{
+    z-index: 10;
+}
+
+@media screen and (min-width:768px) {
+    .get-in-touch-title{
+        max-width: 50%;
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    
+    .get-in-touch-text{
+        max-width: 60%;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}

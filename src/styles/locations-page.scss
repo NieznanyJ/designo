@@ -1,0 +1,93 @@
+
+.locations{
+    position: relative;
+}
+
+.leaflet-container {
+    position: relative !important;
+   
+    width: 100% !important;
+    height: 320px !important;
+    object-fit: cover !important;
+    z-index: 20;
+}
+
+
+.leaflet-control-container{
+    position: absolute;
+    top: 50px;
+}
+
+
+
+.leaflet-control-attribution{
+    display: none;
+}
+
+.locations-page-contact-info{
+    color: var(--dark-gray);
+}
+
+.locations{
+    width: 100%;
+    display: grid;
+    justify-items: stretch;
+    gap: 3rem;
+}
+
+.location-page-info{
+    background-image: url(assets/shared/mobile/bg-pattern-design-pages-intro-mobile.svg) ;
+    background-repeat: repeat-y;
+    background-size: fill;
+    background-position: 70% 10%;
+    padding: 4rem 1rem;
+    margin-top: 0 !important;
+}
+
+.location-page-info{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.loaction-page-location-name{
+    color: var(--peach);
+    font-size: 32px;
+    line-height: 36px;
+
+}
+
+@media screen and (min-width:768px) {
+    .single-location-container{
+        width: 90%;
+        margin: auto;
+        margin-top: 5%;
+        border-bottom: 10px;
+    }
+
+    .leaflet-container{
+        border-radius: 10px ;
+        margin-bottom: 2rem;
+    }
+
+    .location-page-info{
+        text-align: left;
+        align-items: start;
+        border-radius: 10px;
+        background-image: url(/assets/about/desktop/bg-pattern-hero-about-desktop.svg);
+        background-size: 50%;
+        background-repeat: repeat-x;
+        background-position: 0%  bottom;
+    }
+    
+    .loaction-page-location-name{
+        margin-left: 2.5rem;
+        font-size: 40px;
+        line-height: 48px;
+    }
+}

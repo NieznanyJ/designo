@@ -1,0 +1,84 @@
+.design-card{
+    width: 90%;
+    height: 250px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    color: var(--white);
+    border-radius: 10px;  
+    text-transform: uppercase;
+}
+
+
+.card-title{
+    width: 90%;
+    font-size: clamp(5vw,32px,10vw);  
+    line-height: 36px;
+    letter-spacing: 1.4px;
+
+}
+
+.card-projects{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+
+.web-dsign-card{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/public/assets/home/mobile/image-web-design.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.app-dsign-card{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/public/assets/home/mobile/image-app-design.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+.graphic-dsign-card{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/public/assets/home/mobile/image-graphic-design.jpg);
+    background-position: center center;
+    background-size: cover;
+    
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .web-dsign-card{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/public/assets/home/tablet/image-web-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .app-dsign-card{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/public/assets/home/tablet/image-app-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    
+    .graphic-dsign-card{
+        background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(/public/assets/home/tablet/image-graphic-design.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
+    .card-title{
+        font-size: 40px;
+        line-height: 48px;
+        letter-spacing: 2px;  
+    }
+    
+    
+}

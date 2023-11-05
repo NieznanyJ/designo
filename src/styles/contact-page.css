@@ -1,0 +1,92 @@
+.contact-us-page-header {
+  min-height: 620px;
+  height: auto;
+  padding: 5rem 1rem;
+  background-repeat: no-repeat;
+}
+
+.contact-us-page-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact-form-input, .contact-form-message {
+  position: relative;
+  width: 100%;
+  padding: 1rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5843137255);
+  color: var(--white);
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.contact-form-input::-moz-placeholder, .contact-form-message::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.5843137255);
+}
+
+.contact-form-input::placeholder, .contact-form-message::placeholder {
+  color: rgba(255, 255, 255, 0.5843137255);
+}
+
+.contact-form-input:active, .contact-form-message:active, .contact-form-input:focus, .contact-form-message:focus {
+  background-color: transparent;
+  outline: none;
+  border-bottom: 2px solid var(--white);
+}
+
+.contact-form-input:focus::-moz-placeholder, .contact-form-message:focus::-moz-placeholder, .contact-form-input:active::-moz-placeholder, .contact-form-message:active::-moz-placeholder {
+  color: var(--white);
+}
+
+.contact-form-input:focus::placeholder, .contact-form-message:focus::placeholder, .contact-form-input:active::placeholder, .contact-form-message:active::placeholder {
+  color: var(--white);
+}
+
+.contact-form-input::-moz-selection {
+  background-color: var(--dark-gray);
+}
+
+.contact-form-input::selection {
+  background-color: var(--dark-gray);
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.input-error {
+  position: absolute;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.hidden {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .contact-us-page-header {
+    background-image: url(/assets/home/desktop/bg-pattern-hero-home.svg);
+    background-position: -150% -50%;
+    align-items: flex-start;
+    text-align: start;
+    padding: 4rem 2rem;
+  }
+}/*# sourceMappingURL=contact-page.css.map */
