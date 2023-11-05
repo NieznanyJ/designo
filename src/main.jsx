@@ -12,6 +12,7 @@ import './styles/inner-page.css'
 import './styles/location-list.css'
 import './styles/locations-page.css'
 import './styles/contact-page.css'
+import './styles/leaflet.css'
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
