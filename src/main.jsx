@@ -14,6 +14,7 @@ import './styles/locations-page.css'
 import './styles/contact-page.css'
 import './styles/leaflet.css'
 
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
