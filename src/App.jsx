@@ -19,13 +19,13 @@ function App() {
       <Navbar></Navbar>
       <Routes>
 
-        <Route path='https://nieznanyj.github.io/designo/' element={<Home />}></Route>
-        <Route path='https://github.com/NieznanyJ/designo/about-us' element={<AboutUs />}></Route>
-        <Route path='https://github.com/NieznanyJ/designo/web-design' element={<WebDesign />}></Route>
-        <Route path='https://github.com/NieznanyJ/designo/app-design' element={<AppDesign />}></Route>
-        <Route path='https://github.com/NieznanyJ/designo/graphic-design' element={<GraphicsDesign />}></Route>
-        <Route path='https://github.com/NieznanyJ/designo/locations' element={<Locations />}></Route>
-        <Route path='https://github.com/NieznanyJ/designo/contact' element={<ContactUs />}></Route>
+        <Route path='/designo/' element={<Home />}></Route>
+        <Route path='/about-us' element={<AboutUs />}></Route>
+        <Route path='/web-design' element={<WebDesign />}></Route>
+        <Route path='/app-design' element={<AppDesign />}></Route>
+        <Route path='/graphic-design' element={<GraphicsDesign />}></Route>
+        <Route path='/locations' element={<Locations />}></Route>
+        <Route path='/contact' element={<ContactUs />}></Route>
 
 
       </Routes>
